@@ -1,0 +1,19 @@
+# Area of a Trapizoid
+# This program will ask the user for the dimensions of a Trapizoid.
+# It will then calculate the area and display it to the user.
+print ("Today we will calculate the area of a trapizoid. ")
+
+# get the Base1 from the user and conver it to an integer
+Base1 = float(input("Enter the Base1"))
+
+# get the Base2 from the user and conver it to an integer
+Base2 = float(input("Enter the Base2"))
+
+# get the Height from the user and convert it to an integer
+Height = float(input("Enter the Height"))
+
+# calculate the area of the trapizoid
+Area = (Base1 + Base2) * Height / 2
+
+# display the area to the user
+print ("The area of the trapizoid is: ", Area)
