@@ -1,0 +1,10 @@
+# Ask the user for a positive integer
+user_number = int(input("Enter a positive integer: "))
+
+# Use a loop to calculate the sum of all integers from 0 up to the user number
+sum_result = 0
+for i in range(user_number + 1):
+    sum_result += i
+
+# Display the sum
+print(f"The sum of integers from 0 to {user_number} is: {sum_result}")
