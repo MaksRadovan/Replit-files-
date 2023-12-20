@@ -1,0 +1,8 @@
+# Ask the user for a positive integer
+user_number = int(input("Enter a positive integer: "))
+
+# Print the multiplication times table from 0 to 10 with the user number
+print(f"Multiplication times table for {user_number}:")
+for i in range(11):
+    result = user_number * i
+    print(f"{user_number} x {i} = {result}")
